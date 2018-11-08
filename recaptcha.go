@@ -38,7 +38,7 @@ type googleResponse struct {
 }
 
 // url to post submitted re-captcha response to
-var postURL = "https://www.google.com/recaptcha/api/siteverify"
+var postURL = "https://recaptcha.net/recaptcha/api/siteverify"
 
 // Verify method, verifies if current request have valid re-captcha response and returns true or false
 // This method also records any errors in validation.
